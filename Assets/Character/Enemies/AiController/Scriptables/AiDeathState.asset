@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481d474e31a5ca04dab1526e1b5a0ce3, type: 3}
+  m_Name: AiDeathState
+  m_EditorClassIdentifier: 
+  StateMachine:
+    _states: []
+    _firstStateIsDefault: 1
+    CurrentState: {fileID: 0}
+  StateGizmoColor: {r: 1, g: 0.6114956, b: 0, a: 1}
+  clip: {fileID: 864453161743549341, guid: 7e3237d466656b14785b0bb45f410a39, type: 3}
+  deathAnimationTags:
+  - Death01
+  - Death02
+  vfxLerpSlowdown: 2
+  deathDelay: 2.13
+  deathLayer: 2
+  aliveLayer: 12
+  ignoreLayer: 13
+  DeathSFX: event:/Enemies/Enemy1/Enemy1_Death

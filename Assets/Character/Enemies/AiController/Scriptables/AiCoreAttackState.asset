@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbb84e8bb2d035141ac6fb82fb4d31a9, type: 3}
+  m_Name: AiCoreAttackState
+  m_EditorClassIdentifier: 
+  StateMachine:
+    _states: []
+    _firstStateIsDefault: 1
+    CurrentState: {fileID: 0}
+  StateGizmoColor: {r: 1, g: 0, b: 0.86307716, a: 1}
+  coreAttackVFX: VFXAiCoreAttack
+  spawnVfxAt: 0.2
+  rotationSpeed: 6
+  damageToCore: 3
+  damageToSelf: 10
+  damageFrequency: 1
+  AnimationTag: Drain

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Shockwave_06_Big 1
+  m_Shader: {fileID: -6465566751694194690, guid: 3a50c4e1ee7735841856315a729e2526,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_7FA4390D:
+        m_Texture: {fileID: 2800000, guid: 1df0e4ff102340d4ba3bd6fcab019cc5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_F5235D25:
+        m_Texture: {fileID: 2800000, guid: 453f5492e9a118e47b67f54a76a27ecd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_F819F49D_Texture:
+        m_Texture: {fileID: 2800000, guid: 73fcfc6211a4a7143a4f83caff111df5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_12DD7BBA: 1
+    - Vector1_13D04003: 0
+    - Vector1_3438C49: 2.93
+    - Vector1_3E41B28A: 0
+    - Vector1_41760AAD: 5.33
+    - Vector1_5CC28913: 0.38
+    - Vector1_65724C9B: 1
+    - Vector1_6E2933E6: 1
+    - Vector1_742D1168: 2
+    - Vector1_74609377: 0.6
+    - Vector1_89252838: 2
+    - Vector1_AF49568A: 1
+    - Vector1_D0B847CE: 1
+    - Vector1_D24B51ED: 0.24
+    - Vector1_D913AF10: 1
+    - Vector1_D9B7BE36: 1
+    - Vector1_DE0A4C9B: 1
+    - Vector1_DFE6DC03: 0
+    - Vector1_E36F17E6: 0
+    - Vector1_FA9FCC4: 1
+    - Vector1_FC92061D: 1
+    - Vector1_FF78BFE5: 0
+    m_Colors:
+    - Color_7BEC1B91: {r: 12.946116, g: 24.596058, b: 42.224255, a: 0}
+    - Color_7E745413: {r: 0, g: 0.87092555, b: 3.9533494, a: 0}
+    - Vector2_2298CD: {r: 0, g: 1, b: 0, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}

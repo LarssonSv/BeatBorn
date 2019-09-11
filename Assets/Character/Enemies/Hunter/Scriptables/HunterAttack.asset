@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59ff48c3febf83f4c9a66de0343a4121, type: 3}
+  m_Name: HunterAttack
+  m_EditorClassIdentifier: 
+  StateMachine:
+    _states: []
+    _firstStateIsDefault: 1
+    CurrentState: {fileID: 0}
+  StateGizmoColor: {r: 0, g: 1, b: 0, a: 1}
+  attacks:
+  - AttackTag: Attack
+    Clip: {fileID: 1902992584987619898, guid: 1bacd4f3eb3b55e4a878c65b9fac2643, type: 3}
+    IgnoreThisData: 0
+    attackWindow: {x: 29, y: 31}
+    VfxWindow: {x: 0, y: 0}
+    InputBuffer: 1
+    Damage: 20
+    GravityFactor: 0
+    AngleOffset: 0
+    Angle: 180
+    CloseAttackRange: 0
+    CloseAttackAngle: 0
+    CloseAttackAngleOffset: 0
+    Radius: 1.34
+    Input: 0
+    RootMotion: 1
+    ShouldNotRotateInAttack: 0
+    HitParticle:
+      VFXGraph: {fileID: 8926484042661614526, guid: 1c85017027ac2b0429750256babb396b,
+        type: 3}
+      VFXPrefab: {fileID: 4385618344567930934, guid: 97fb5e112f2c5f44280cdc755b1869d3,
+        type: 3}
+      ShurikenPrefab: {fileID: 0}
+    VFXSwingMaterial: {fileID: 0}
+    AttackSFX: 
+    HitSFX: 
+  - AttackTag: Attack2
+    Clip: {fileID: -9178794467722197613, guid: 123e38b2adc335547be4fe8ef9df07ec, type: 3}
+    IgnoreThisData: 0
+    attackWindow: {x: 16, y: 19}
+    VfxWindow: {x: 0, y: 0}
+    InputBuffer: 1
+    Damage: 15
+    GravityFactor: 0
+    AngleOffset: 0
+    Angle: 180
+    CloseAttackRange: 0
+    CloseAttackAngle: 0
+    CloseAttackAngleOffset: 0
+    Radius: 1.34
+    Input: 0
+    RootMotion: 0
+    ShouldNotRotateInAttack: 0
+    HitParticle:
+      VFXGraph: {fileID: 8926484042661614526, guid: 1c85017027ac2b0429750256babb396b,
+        type: 3}
+      VFXPrefab: {fileID: 4385618344567930934, guid: 97fb5e112f2c5f44280cdc755b1869d3,
+        type: 3}
+      ShurikenPrefab: {fileID: 0}
+    VFXSwingMaterial: {fileID: 0}
+    AttackSFX: 
+    HitSFX: 
+  - AttackTag: SlashDash
+    Clip: {fileID: -8701846805685303474, guid: 5241b584b2adc094e85e5a0df312d9d9, type: 3}
+    IgnoreThisData: 0
+    attackWindow: {x: 14, y: 16}
+    VfxWindow: {x: 14, y: 17}
+    InputBuffer: 1
+    Damage: 15
+    GravityFactor: 0
+    AngleOffset: 0
+    Angle: 180
+    CloseAttackRange: 0
+    CloseAttackAngle: 0
+    CloseAttackAngleOffset: 0
+    Radius: 1.34
+    Input: 0
+    RootMotion: 1
+    ShouldNotRotateInAttack: 1
+    HitParticle:
+      VFXGraph: {fileID: 8926484042661614526, guid: 1c85017027ac2b0429750256babb396b,
+        type: 3}
+      VFXPrefab: {fileID: 4385618344567930934, guid: 97fb5e112f2c5f44280cdc755b1869d3,
+        type: 3}
+      ShurikenPrefab: {fileID: 0}
+    VFXSwingMaterial: {fileID: 0}
+    AttackSFX: 
+    HitSFX: 
+  AttackRange: 2
+  mask:
+    serializedVersion: 2
+    m_Bits: 1024
+  attackCD: 0
+  RoationSpeed: 20

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59ff48c3febf83f4c9a66de0343a4121, type: 3}
+  m_Name: ShooterAttack
+  m_EditorClassIdentifier: 
+  StateMachine:
+    _states: []
+    _firstStateIsDefault: 1
+    CurrentState: {fileID: 0}
+  StateGizmoColor: {r: 0, g: 1, b: 0, a: 1}
+  attacks:
+  - AttackTag: Attack
+    Clip: {fileID: 5912966291348890279, guid: a9ab6f52ad14b64429b897bcc44c832c, type: 3}
+    IgnoreThisData: 0
+    attackWindow: {x: 28, y: 37}
+    VfxWindow: {x: 0, y: 0}
+    InputBuffer: 0
+    Damage: 15
+    GravityFactor: 0
+    AngleOffset: 0
+    Angle: 0
+    CloseAttackRange: 0
+    CloseAttackAngle: 0
+    CloseAttackAngleOffset: 0
+    Radius: 360
+    Input: 0
+    RootMotion: 0
+    HitParticle:
+      VFXGraph: {fileID: 8926484042661614526, guid: 1c85017027ac2b0429750256babb396b,
+        type: 3}
+      VFXPrefab: {fileID: 4385618344567930934, guid: 97fb5e112f2c5f44280cdc755b1869d3,
+        type: 3}
+      ShurikenPrefab: {fileID: 430096544029820134, guid: 64c1779601f7e224692db90e5f7f770d,
+        type: 3}
+    VFXSwingMaterial: {fileID: 0}
+    AttackSFX: event:/Enemies/EnemyShooter/CannonBlast
+    HitSFX: event:/Enemies/Enemy1/Enemy1_TDmg3
+  AttackRange: 3
+  mask:
+    serializedVersion: 2
+    m_Bits: 1024
+  attackCD: 0.3
+  RoationSpeed: 10

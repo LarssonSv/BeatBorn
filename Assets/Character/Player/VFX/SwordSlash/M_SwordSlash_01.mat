@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_SwordSlash_01
+  m_Shader: {fileID: -6465566751694194690, guid: b5e8772eb4ce8db43939ef9bb507ad33,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_4BAD828A:
+        m_Texture: {fileID: 2800000, guid: 5e940496e51b58340a0268f93ab0b836, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_52947CD:
+        m_Texture: {fileID: 2800000, guid: 5f4a6b64bfca74944bb0d30bb6fcdf64, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_C415FC83:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_1FD1261A: 13
+    - Vector1_371F6B0A: 0
+    - Vector1_413D554E: 1
+    - Vector1_4D28F1AC: 2.64
+    - Vector1_5647EE05: 0.2
+    - Vector1_577D03A4: 1
+    - Vector1_5B929044: 1
+    - Vector1_6AD40301: 2.17
+    - Vector1_80A28C71: 0.25
+    - Vector1_9887E9EE: 1
+    - Vector1_A0CD5CA0: 0.88
+    - Vector1_A255473E: 5
+    - Vector1_ABFAB46C: 4.74
+    - Vector1_B6F90648: 1
+    - Vector1_C754E6C8: 1.41
+    - Vector1_CBD0DC51: 0
+    - Vector1_D51662EC: 0.39
+    - Vector1_EC0DC4DC: 1
+    - Vector1_F06DFD3D: 1
+    - _IntensityBlend: 0
+    m_Colors:
+    - Color_86F256F1: {r: 1.5157166, g: 0.1723756, b: 0, a: 0}
+    - Color_9725E480: {r: 0, g: 1.9868889, b: 2.6082375, a: 0}
+    - Vector4_578E379A: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}

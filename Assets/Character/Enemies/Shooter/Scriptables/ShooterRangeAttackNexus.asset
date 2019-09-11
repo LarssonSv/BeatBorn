@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0173ce110e8d5ff40ac588a1c8c2a636, type: 3}
+  m_Name: ShooterRangeAttackNexus
+  m_EditorClassIdentifier: 
+  StateMachine:
+    _states: []
+    _firstStateIsDefault: 1
+    CurrentState: {fileID: 0}
+  StateGizmoColor: {r: 0, g: 1, b: 0, a: 1}
+  projectileTag: shooterProjectile
+  animationTag: Shot
+  clip: {fileID: -8116511507591930585, guid: e076e1c797537e9429b07fd41105bb53, type: 3}
+  fireProjectileAt: 1.43
+  RotationSpeed: 10
+  radius: 3
+  mask:
+    serializedVersion: 2
+    m_Bits: 1024

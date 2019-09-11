@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_LightningBolt_01
+  m_Shader: {fileID: -6465566751694194690, guid: 88265e7f771daa74990d5ee5a2e9c943,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_67CE9C97:
+        m_Texture: {fileID: 2800000, guid: 4f6d76d06946f50479303edf31b2ca67, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_8A0F4620:
+        m_Texture: {fileID: 2800000, guid: c43fa1814373b0f4ea4ef1492609cd41, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_B47961F3:
+        m_Texture: {fileID: 2800000, guid: c43fa1814373b0f4ea4ef1492609cd41, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_372ECEFF_Texture:
+        m_Texture: {fileID: 2800000, guid: dbf4aa4c2d248694590f9d569544a093, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_779B5272_Texture:
+        m_Texture: {fileID: 2800000, guid: d7c8fa7d38a6381428f7238a66039486, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_20DEEB30: 1
+    - Vector1_43E98D0F: 1
+    - Vector1_48229E32: 0
+    - Vector1_59CF9C70: 0.81
+    - Vector1_5C066567: -1.2
+    - Vector1_5C607741: 0.17
+    - Vector1_7F2A72A: 0
+    - Vector1_B032A1C5: 1.85
+    - Vector1_EDDDFFDE: 0.34
+    - Vector1_F6E78C6E: 2.4
+    - Vector1_FDFC28A3: 0
+    - _CoreDamage: 0
+    m_Colors:
+    - Color_981966B8: {r: 24.25146, g: 0, b: 0, a: 0}
+    - Color_EA9B4617: {r: 0.6509434, g: 1.2278982, b: 2, a: 0}
+    - Color_FD5FF59D: {r: 0, g: 6.6572647, b: 48.502926, a: 0}
+    - Vector4_C26B71A9: {r: -1.15, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}

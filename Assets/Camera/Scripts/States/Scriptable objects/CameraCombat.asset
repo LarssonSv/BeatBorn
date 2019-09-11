@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ac4ee8fba50ec94da63d4418f2f4f08, type: 3}
+  m_Name: CameraCombat
+  m_EditorClassIdentifier: 
+  yPositionOffset: 1
+  xAngleOffset: 25
+  zoomSpeed: 100
+  zoomDamping: 100
+  zoomDistance: {x: 7, y: 7}
+  minDistanceToPreserve: 2
+  offsetFromWalls: 4
+  transitionSpeed: 20
+  currentDistance: 7
+  desiredDistance: 7
+  correctedDistance: 7
+  tempYPositionOffset: 1
+  tempXAngleOffset: 25
+  tempZoomDistancecIdle: 7
+  tempZoomDistanceMoving: 7
+  combatDuration: 1.5
+  softZone: {x: 2, y: 2}

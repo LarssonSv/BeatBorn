@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c879debab3a834741b4159acd2dbb375, type: 3}
+  m_Name: PlayerSpawningState
+  m_EditorClassIdentifier: 
+  StateMachine:
+    _states: []
+    _firstStateIsDefault: 1
+    CurrentState: {fileID: 0}
+  StateGizmoColor: {r: 0, g: 1, b: 0, a: 1}
+  spawnSound: event:/MainCharacter/MC_Respawn
+  clip: {fileID: -1211663872391313451, guid: 64a317339de555f4783a148121cec71c, type: 3}
+  spawnVFX: {fileID: 8951536614454737679, guid: 382bc8788c1cc454da2991c68c164c44,
+    type: 3}
+  preSpawnDelay: 2.5
+  preVisualSpawnDelay: 2.4

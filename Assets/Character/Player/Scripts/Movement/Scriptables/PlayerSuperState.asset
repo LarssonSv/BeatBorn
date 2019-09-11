@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be942a9ac3c93f54eb3187343c638497, type: 3}
+  m_Name: PlayerSuperState
+  m_EditorClassIdentifier: 
+  StateMachine:
+    _states: []
+    _firstStateIsDefault: 1
+    CurrentState: {fileID: 0}
+  StateGizmoColor: {r: 0, g: 1, b: 0, a: 1}
+  vfxTag: VFXUlti
+  mask:
+    serializedVersion: 2
+    m_Bits: 4096
+  radius: 10
+  Supers:
+  - AnimationTag: Super
+    Clip: {fileID: 8161658170116137363, guid: 851feb6a26cc9134c9bbe6570d1f4168, type: 3}
+    SyncPercentage: 0.5
+    Damage: 350
+    AttackTime: 1.5
+    minMaxRadius: {x: 1, y: 11}
+    mask:
+      serializedVersion: 2
+      m_Bits: 4096
+    HitParticle:
+      VFXGraph: {fileID: 8926484042661614526, guid: 1c85017027ac2b0429750256babb396b,
+        type: 3}
+      VFXPrefab: {fileID: 4385618344567930934, guid: 97fb5e112f2c5f44280cdc755b1869d3,
+        type: 3}
+      ShurikenPrefab: {fileID: 178740260658044923, guid: 78232c5866309584fab28143174bde46,
+        type: 3}
+    ShurikenPrefab: {fileID: 8951536614454737679, guid: 382bc8788c1cc454da2991c68c164c44,
+      type: 3}
+    AttackSFX: event:/MainCharacter/MC_Ult1
+    HitSFX: event:/MainCharacter/MC_UltHIT

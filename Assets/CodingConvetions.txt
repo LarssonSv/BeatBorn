@@ -1,0 +1,21 @@
+Public variables float EnemyDamage
+private variables float enemyDamage
+parameter variables float enemyDamage
+local variables float enemyDamage
+
+Method void DamageMethod(float damage)
+{
+	float debugStuff = damage -1;
+	Print(debugStuff  + ”do damage”);
+
+	if(Stuff) 
+		return;
+
+	if(Stuff)
+	{
+		Print(damage);
+		Return;
+	}
+}
+
+
